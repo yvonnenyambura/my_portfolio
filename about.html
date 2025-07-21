@@ -4,28 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-
 </head>
-<style>
-  .image{
-    margin-top: 0px;
-    margin-bottom: 450px;
-    height: 580px;
-    width: 400px;
-    border-radius: 120px;
-  }
-  .par{
-    margin-top: 0px;
-    text-align: right;
-    margin-bottom: 590px;
-    gap: 100px;
-  }
-</style>
-
-<body style="background-image: linear-gradient(to right, white, black);">
+<body style="background-image: linear-gradient(to bottom right, #e6c81b, #5a5618);">
 
 <nav class="bg-gray-900 p-4">
   <div class="container mx-auto flex justify-end space-x-6">
@@ -35,40 +18,71 @@
     <a href="contact.html" class="text-white hover:text-yellow-400">Contact</a>
   </div>
 </nav>
-
-<section class="text-gray-600 body-font">
+ 
+<h1 style="font-weight: 900; text-align: center; font-size: xx-large;">About Me</h1>
+<section class="text-black">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img src="home.jpg" class="image" alt="hero" >
-    </div>
-    <div class="par">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">I'm Yvonne Nyambura
-        <br class="hidden lg:inline-block">A Software Developer
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      
       </h1>
-      <p class="">Hi, I'm Yvonne Nyambura, a dedicated Full Stack Developer with a strong passion for creating seamless, user-centered web applications. I enjoy building both the frontend and backend of projects, using technologies like React, Node.js, and Express to bring ideas to life. With a deep interest in clean code and intuitive design, I strive to craft solutions that are not only functional but also enjoyable to use.
-<br>
-Beyond coding, I value continuous learning and staying up-to-date with the latest tools and best practices in tech. Whether collaborating with a team or tackling solo projects, I’m driven by curiosity, problem-solving, and a desire to make meaningful digital experiences.
+      <p class="mb-8 leading-relaxed">I am Yvonne Nyambura,a passionate software engineer,with a strong interest in building efficient, user-friendly applications. I enjoy turning ideas into functional digital solutions that solve real problems and improve everyday experiences.
 
-</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+<br>My focus is on writing clean, maintainable code and building responsive interfaces. I enjoy working on both the frontend and backend, and I’m always eager to explore new tools, frameworks, and best practices.
+
+<br>Beyond coding, I value teamwork, continuous learning, and delivering quality work. I’m always looking for opportunities to grow, collaborate, and contribute to impactful projects.</p>
+      
+
+<div class="flex justify-center space-x-2">
+        <span class="bg-yellow-400 text-white p-2 rounded">
+          <i class="fa-solid fa-image"></i>
+        </span>
+        <span class="bg-yellow-400 text-white p-2 rounded">
+          <i class="fa-solid fa-cloud"></i>
+        </span>
+        <span class="bg-yellow-400 text-white p-2 rounded">
+          <i class="fa-solid fa-user"></i>
+        </span>
+        <span class="bg-yellow-400 text-white p-2 rounded">
+         <i class="fa-solid fa-image"></i>
+        </span>
+        <span class="bg-yellow-400 text-white p-2 rounded">
+          <i class="fa-solid fa-cloud"></i>
+        </span>
+        <span class="bg-yellow-400 text-white p-2 rounded">
+          <i class="fa-solid fa-user"></i>
+        </span>
       </div>
+
+    </div>
+    <div class="lg:max-w-lg lg:w-60 md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src="about.jpg">
     </div>
   </div>
 </section>
 
+
 <footer class="text-yellow-400 py-6 mt-12">
+
   <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
     <p class="text-sm text-center md:text-left">&copy; 2025 Yvonne Nyambura.</p>
+  
+
+    <div class="social-icons flex space-x-4 mt-4 md:-0">
+
+      <a class="hover:text-yellow-200" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a class="hover:text-yellow-200" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a class="hover:text-yellow-200" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+
+    </div> 
+
+
     <div class="flex space-x-4 mt-4 md:mt-0">
-      <a href="#" class="text-white hover:text-yellow-400">Privacy Policy</a>
-      <a href="#" class="text-white hover:text-yellow-400">Terms</a>
-      <a href="#" class="text-white hover:text-yellow-400">Contact</a>
+      <a href="privacy policy" class="text-yellow-400 hover:text-yellow-200">Privacy Policy</a>
+      <a href="terms" class="text-yellow-400 hover:text-yellow-200">Terms</a>
+      <a href="contact" class="text-yellow-400 hover:text-yellow-200">Contact</a>
     </div>
   </div>
 </footer>
-
 
 </body>
 </html>
